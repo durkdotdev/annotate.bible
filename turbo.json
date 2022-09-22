@@ -1,5 +1,10 @@
 {
   "$schema": "https://turborepo.org/schema.json",
+  "globalDependencies": [
+    "$NODE_ENV",
+    "$NEXT_PUBLIC_SUPABASE_URL",
+    "$NEXT_PUBLIC_SUPABASE_ANON_KEY"
+  ],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],

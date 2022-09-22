@@ -1,0 +1,14 @@
+{
+  "name": "configs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.9",
+    "open-color": "^1.9.1"
+  },
+  "devDependencies": {
+    "react-icons": "^4.4.0",
+    "typescript": "^4.7.4"
+  }
+}
